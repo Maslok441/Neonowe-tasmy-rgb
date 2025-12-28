@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Neonowa Taśma LED RGB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f1a;
+            color: #ffffff;
+        }
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #7b2cff, #ff2fb3);
+        }
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .product {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 12px;
+        }
+        .features li {
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 2em;
+            color: #ff2fb3;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #7b2cff;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0a0a14;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+        @media (max-width: 768px) {
+            .product {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Neonowa Taśma LED RGB</h1>
+    <p>Stwórz klimatyczne oświetlenie w swoim pokoju</p>
+</header>
+
+<div class="container">
+    <div class="product">
+        <img src="https://via.placeholder.com/600x400" alt="Neon LED">
+
+        <div>
+            <h2>Dlaczego warto?</h2>
+            <ul class="features">
+                <li>🌈 Wiele kolorów RGB</li>
+                <li>🎮 Idealna do pokoju gamingowego</li>
+                <li>🎛️ Sterowanie pilotem</li>
+                <li>🧩 Elastyczna – dowolne kształty</li>
+                <li>⚡ Energooszczędna</li>
+            </ul>
+
+            <div class="price">52,12 zł</div>
+
+            <a class="btn" href="#">Kup teraz</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    © 2025 Twoja Strona • Kontakt: kamilmaslowski703@gmail.com
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Neonowa Taśma LED RGB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: radial-gradient(circle at top, #1b0033, #05000d);
+            color: #ffffff;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #7f00ff, #00d4ff);
+            box-shadow: 0 0 40px rgba(127,0,255,0.6);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px rgba(255,255,255,0.6);
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .product {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 18px;
+            box-shadow: 0 0 40px rgba(0,212,255,0.4);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #9dfcff;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 12px;
+            font-size: 1.05em;
+        }
+
+        ul li::before {
+            content: "⚡ ";
+            color: #b66bff;
+        }
+
+        .price {
+            font-size: 2.4em;
+            margin: 25px 0;
+            color: #ff5cff;
+            text-shadow: 0 0 15px rgba(255,92,255,0.7);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 18px 40px;
+            font-size: 1.1em;
+            background: linear-gradient(135deg, #7f00
